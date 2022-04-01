@@ -7,14 +7,14 @@
  * @return test_values 
  */
 
-test_values deletebook(int id)
+test_values delete_book(int id)
 {
     
     
     
     FILE *fp=NULL;
     FILE *ft=NULL;
-    fp = fopen("bookLibrary.dat","rb");
+    fp = fopen("book_Library.dat","rb");
     ft = fopen("temp.dat","wb");
     
     if(fp==NULL || ft==NULL)
@@ -44,8 +44,8 @@ test_values deletebook(int id)
     fclose(ft);
     free(discarded_book);
   
-   remove("bookLibrary.dat");
-    rename("temp.dat","bookLibrary.dat");
+   remove("book_Library.dat");
+    rename("temp.dat","book_Library.dat");
     
     return pass;
     

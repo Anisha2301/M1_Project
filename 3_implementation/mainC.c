@@ -21,13 +21,14 @@ struct student{
 FILE *fp;
 
 int main(){
+
     int ch;
 
     while(1){
         system("cls");
         printf("<== Library Management System ==>\n");
         printf("1.Add Book\n");
-        printf("2.ViewBooks List\n");
+        printf("2.Books List\n");
         printf("3.Remove Book\n");
         printf("4.Issue Book\n");
         printf("5.Issued Book List\n");
@@ -198,8 +199,6 @@ void issueBook(){
     fwrite(&s, sizeof(s), 1, fp);
     fclose(fp);
 }
-
-
 void issueList(){
     system("cls");
     printf("<== Book Issue List ==>\n\n");

@@ -6,7 +6,7 @@
  * @return test_values 
  */
 
-test_values addition(int id,char name[],char author[])
+test_values add_book(int id,char name[],char author[])
 {
     
     
@@ -21,19 +21,19 @@ test_values addition(int id,char name[],char author[])
     }
     else{
         
-        book *newBook = NULL;
-        newBook = malloc(sizeof(book));
+        book *new_Book = NULL;
+        new_Book = malloc(sizeof(book));
 		
-        newBook->book_id = id;
-        strcpy(newBook->book_name,name);
+        new_Book->book_id = id;
+        strcpy(new_Book->book_name,name);
         
     
 
-    strcpy(newBook->author_name,author);
+    strcpy(new_Book->author_name,author);
     
-    fwrite(newBook,sizeof(book),1,fp);
+    fwrite(new_Book,sizeof(book),1,fp);
     fclose(fp);
-    free(newBook);
+    free(new_Book);
     
     
     return pass;

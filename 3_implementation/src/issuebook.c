@@ -7,11 +7,11 @@
  * @return test_values 
  */
 
-test_values issuebook(int id)
+test_values issue_book(int id)
 {
     char name1[20];
     FILE *fp=NULL;
-    fp = fopen("bookLibrary.dat","rb");
+    fp = fopen("book_Library.dat","rb");
     if(fp==NULL)
     {
         printf("\nError while opening file in issuing book\\n");

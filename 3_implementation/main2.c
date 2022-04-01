@@ -3,11 +3,11 @@
 #include<time.h>
 #include<string.h>
 
-int addition();
-int deletebook();
-int issuebook();
-int viewbooklist();
-int searchbook(); // it is header file, include all function
+int add_book();
+int delete_book();
+int issue_book();
+int view_booklist();
+int search_book(); // it is header file, include all function
 int main()
 {
     
@@ -40,25 +40,25 @@ int main()
         fflush(stdin);
         //gets(author);
 	scanf("%19s",authorname);
-        success=addition(id,name,authorname);
+        success=add_book(id,name,authorname);
         break;
         case 2:
         printf("\nBookId: ");
         scanf("%d",&id);
-        success=deletebook(id);
+        success=delete_book(id);
         break;
         case 3:
-        success=viewbooklist();
+        success=view_booklist();
         break;
         case 4:
         printf("\nBookId:");
         scanf("%d",&id);
-        success=searchbook(id);
+        success=search_book(id);
         break;
         case 5:
         printf("\nBookId: ");
         scanf("%d",&id);
-        success=issuebook(id);
+        success=issue_book(id);
         break;
         case 6:
         printf("\n\n\n");

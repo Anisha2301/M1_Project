@@ -3,17 +3,17 @@ PROJECT_NAME = LMS
 
 #All Source code file
 SRC = main.c\
-src/Addbook.c\
-src/Deletebook.c\
-src/issuebook.c\
-src/Searchbook.c\
-src/viewbooks.c
+src/Add_book.c\
+src/Delete_book.c\
+src/issue_book.c\
+src/Search_book.c\
+src/view_booklist.c
 
-TEST_SRC = src/Addbook.c\
-src/Deletebook.c\
-src/issuebook.c\
-src/Searchbook.c\
-src/viewbooks.c\
+TEST_SRC = src/Add_book.c\
+src/Delete_book.c\
+src/issue_book.c\
+src/Search_book.c\
+src/view_booklist.c\
 unity/unity.c\
 test/test_Managment.c
 

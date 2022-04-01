@@ -4,9 +4,10 @@
  * 
  */
 
-int addition();
-int deletebook();
-int issuebook();
-int viewbooklist();
-int searchbook();
-int main()
+int add_book);
+int delete_book();
+int search_book();
+int issue_book();
+int view_booklist();
+int search_book();
+int main();

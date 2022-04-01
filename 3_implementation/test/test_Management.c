@@ -2,35 +2,41 @@
 #include"unity_internals.h"
 #include"unity.h"
 
-void setUp(){}
-
-void tearDown(){}
-
-
-void test_addition(void)
+void setUp()
 {
-    TEST_ASSERT_EQUAL(pass,addition(125, "Ajay", "Dragon"));
+
 }
 
-void test_searchbook(void)
+void tearDown()
 {
-    TEST_ASSERT_EQUAL(fail,searchbook(-2));
-    TEST_ASSERT_EQUAL(pass,searchbook(125));
+
 }
 
-void test_issuebook(void)
+
+void test_add_book(void)
 {
-    TEST_ASSERT_EQUAL(pass,issuebook(125));
+    TEST_ASSERT_EQUAL(pass,add_book(125, "Ajay", "Dragon"));
 }
 
-void test_deletebook(void)
+void test_search_book(void)
 {
-    TEST_ASSERT_EQUAL(pass,deletebook(125));
+    TEST_ASSERT_EQUAL(fail,search_book(-2));
+    TEST_ASSERT_EQUAL(pass,search_book(125));
+}
+
+void test_issue_book(void)
+{
+    TEST_ASSERT_EQUAL(pass,issue_book(125));
+}
+
+void test_delete_book(void)
+{
+    TEST_ASSERT_EQUAL(pass,delete_book(125));
 }        
 
-void test_viewbooklist(void)
+void test_view_booklist(void)
 {
-    TEST_ASSERT_EQUAL(pass,test_viewbooklist());
+    TEST_ASSERT_EQUAL(pass,test_view_booklist());
 }
 
 
@@ -39,11 +45,11 @@ int main()
 {
     UNITY_BEGIN();
 
-    RUN_TEST(test_addition);
-    RUN_TEST(test_searchbook);
-    RUN_TEST(test_issuebook);
-    RUN_TEST(test_deletebook);
-    RUN_TEST(test_viewbooklist);
+    RUN_TEST(test_add_book);
+    RUN_TEST(test_search_book);
+    RUN_TEST(test_issue_book);
+    RUN_TEST(test_delete_book);
+    RUN_TEST(test_view_booklist);
     
     return UNITY_END();
 }

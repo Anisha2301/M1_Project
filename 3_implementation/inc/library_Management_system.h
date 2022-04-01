@@ -43,14 +43,8 @@ typedef enum test_values {
  * @param id 
  * @return test_values 
  */
-test_values searchbook(int id);
 
-/**
- * @brief function to add new books to the library
- * 
- * @return test_values 
- */
-test_values addition(int id,char name[],char author[]);
+test_values add_book(int id,char name[],char author[]);
 
 /**
  * @brief funtion to denote discarded books
@@ -58,20 +52,27 @@ test_values addition(int id,char name[],char author[]);
  * @param id 
  * @return test_values 
  */
-test_values deletebook(int id);
+test_values delete_book(int id);
 
 /**
  * @brief function to view all the books
  * 
  * @return test_values 
  */
-test_values issuebook(int id);
+test_values search_book(int id);
+
+/**
+ * @brief function to add new books to the library
+ * 
+ * @return test_values 
+ */
+test_values issue_book(int id);
 
 /**
  * @brief function to issue the books
  * 
  * @return test_values 
  */
-test_values viewbooklist(void);
+test_values view_booklist(void);
 
 #endif
