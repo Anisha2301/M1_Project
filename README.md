@@ -3,11 +3,10 @@
 
 # BADGES
 
-|Build|Code Quality|Git Inspector|Unity|Code Coverage|
-|:----|:-----------|:------------|:----|:------------|
-
-
-[![Code Quality - Static Code - Cppcheck](https://github.com/Anisha2301/M1_Project/actions/workflows/cppcheak.yml/badge.svg)](https://github.com/Anisha2301/M1_Project/actions/workflows/cppcheak.yml)
+|Code Quality|Git Inspector|Unity|Code Coverage|
+|:-----------|:------------|:----|:------------|
+|[![Code Quality - Static Code - Cppcheck](https://github.com/Anisha2301/M1_Project/actions/workflows/cppcheak.yml/badge.svg)](https://github.com/Anisha2301/M1_Project/actions/workflows/cppcheak.yml)|
+||[![Contribution Check - Git Inspector](https://github.com/Anisha2301/M1_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Anisha2301/M1_Project/actions/workflows/gitinspector.yml)||
 
 
 
