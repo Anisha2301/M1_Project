@@ -4,7 +4,7 @@
  * 
  */
 
-int add_book);
+int add_book();
 int delete_book();
 int search_book();
 int issue_book();
