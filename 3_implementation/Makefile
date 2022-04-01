@@ -36,6 +36,9 @@ endif
 
 TEST_OUTPUT = Test_$(PROJECT_NAME).$(EXEC)
 
+Build:
+	gcc main2.c test_Management.c unity/unity.c -Iunity
+
 all:
 	gcc -I $(INC_HEADER) $(SRC) -o $(call FixPath, ./$(PROJECT_NAME).$(EXEC))
 
