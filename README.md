@@ -5,8 +5,7 @@
 
 |Code Quality|Git Inspector|Unity|Code Coverage|
 |:-----------|:------------|:----|:------------|
-|[![Code Quality - Static Code - Cppcheck](https://github.com/Anisha2301/M1_Project/actions/workflows/cppcheak.yml/badge.svg)](https://github.com/Anisha2301/M1_Project/actions/workflows/cppcheak.yml)|
-||[![Contribution Check - Git Inspector](https://github.com/Anisha2301/M1_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Anisha2301/M1_Project/actions/workflows/gitinspector.yml)||
+|[![Code Quality - Static Code - Cppcheck](https://github.com/Anisha2301/M1_Project/actions/workflows/cppcheak.yml/badge.svg)](https://github.com/Anisha2301/M1_Project/actions/workflows/cppcheak.yml)|[![Contribution Check - Git Inspector](https://github.com/Anisha2301/M1_Project/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Anisha2301/M1_Project/actions/workflows/gitinspector.yml)|[![Unit Testing - Unity](https://github.com/Anisha2301/M1_Project/actions/workflows/unity.yml/badge.svg)](https://github.com/Anisha2301/M1_Project/actions/workflows/unity.yml)|
 
 
 
