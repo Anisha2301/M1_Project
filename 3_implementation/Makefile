@@ -18,7 +18,7 @@ unity/unity.c\
 test/test_Managment.c
 
 #Path to the header file
-INC_HEADER = inc
+INC_HEADER = inc/library_Management_system.h
 INC_TEST = unity
 
 #To check if the OS is windows or linux and set the executable file extension and delete command accordingly
